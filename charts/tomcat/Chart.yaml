@@ -4,7 +4,7 @@ apiVersion: v2
 appVersion: 100.0.10
 dependencies:
 - name: common
-  repository: https://charts.bitnami.com/bitnami
+  repository:  https://devarajantr.github.io/dev-helm-charts/
   tags:
   - bitnami-common
   version: 1.x.x
@@ -23,6 +23,6 @@ maintainers:
   name: Bitnami
 name: tomcat
 sources:
-- https://github.com/bitnami/bitnami-docker-tomcat
+-  https://devarajantr.github.io/dev-helm-charts/
 - http://tomcat.apache.org
 version: 90.2.24
