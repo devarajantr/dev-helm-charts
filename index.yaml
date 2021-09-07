@@ -1,0 +1,36 @@
+apiVersion: v1
+entries:
+  tomcat:
+  - annotations:
+      category: ApplicationServer
+    apiVersion: v2
+    appVersion: 10.0.101
+    created: "2021-09-07T14:28:14.20941578Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: Chart for Apache Tomcat
+    digest: dab1bea700dabac9d48f34b4f6fb6275efe07f8ad05a3bf4de19ba188b3ad776
+    home: https://github.com/bitnami/charts/tree/master/bitnami/tomcat
+    icon: https://bitnami.com/assets/stacks/tomcat/img/tomcat-stack-220x234.png
+    keywords:
+    - tomcat
+    - java
+    - http
+    - web
+    - application server
+    - jsp
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: tomcat
+    sources:
+    - https://github.com/bitnami/bitnami-docker-tomcat
+    - http://tomcat.apache.org
+    urls:
+    - https://github.com/devarajantr/dev-helm-charts/tomcat-9.2.25.tgz
+    version: 9.2.25
+generated: "2021-09-07T14:28:14.206146636Z"
