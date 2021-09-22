@@ -1,11 +1,22 @@
 apiVersion: v1
 entries:
+  ns-chart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-09-22T14:16:05.691285537Z"
+    description: A Helm chart for Kubernetes
+    digest: f48a0be1399bc6aa385afdc5b5ccb4638a1b578b08c199a0ff53409fdd3ebcb0
+    name: ns-chart
+    type: application
+    urls:
+    - https://devarajantr.github.io/dev-helm-charts/ns-chart-0.1.0.tgz
+    version: 0.1.0
   tomcat:
   - annotations:
       category: ApplicationServer
     apiVersion: v2
     appVersion: 10.0.101
-    created: "2021-09-07T14:56:27.935800726Z"
+    created: "2021-09-22T14:16:05.81824518Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -33,4 +44,4 @@ entries:
     urls:
     - https://devarajantr.github.io/dev-helm-charts/tomcat-9.2.25.tgz
     version: 9.2.25
-generated: "2021-09-07T14:56:27.932319573Z"
+generated: "2021-09-22T14:16:05.690437857Z"
