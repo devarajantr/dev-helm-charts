@@ -3,7 +3,7 @@ entries:
   ns-1if-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-09-23T08:20:29.881099282Z"
+    created: "2021-09-29T12:40:33.912958947Z"
     description: A Helm chart for Kubernetes
     digest: 47c757f236b27204ac227fe8cac305695732cc5f62193197e9ae9a6809fe743d
     name: ns-1if-chart
@@ -11,10 +11,21 @@ entries:
     urls:
     - https://devarajantr.github.io/dev-helm-charts/ns-1if-chart-0.1.0.tgz
     version: 0.1.0
+  ns-1if-chart2:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-09-29T12:40:33.913729906Z"
+    description: A Helm chart for Kubernetes
+    digest: 963c5a64ca63b3f12b0e9df6bc273f7bb073ca3d61fa82a7e878a8c346d17dcd
+    name: ns-1if-chart2
+    type: application
+    urls:
+    - https://devarajantr.github.io/dev-helm-charts/ns-1if-chart2-0.1.0.tgz
+    version: 0.1.0
   ns-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-09-23T08:20:29.884946649Z"
+    created: "2021-09-29T12:40:33.915893825Z"
     description: A Helm chart for Kubernetes
     digest: f48a0be1399bc6aa385afdc5b5ccb4638a1b578b08c199a0ff53409fdd3ebcb0
     name: ns-chart
@@ -27,7 +38,7 @@ entries:
       category: ApplicationServer
     apiVersion: v2
     appVersion: 10.0.101
-    created: "2021-09-23T08:20:29.894637139Z"
+    created: "2021-09-29T12:40:33.928674634Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -55,4 +66,4 @@ entries:
     urls:
     - https://devarajantr.github.io/dev-helm-charts/tomcat-9.2.25.tgz
     version: 9.2.25
-generated: "2021-09-23T08:20:29.880094768Z"
+generated: "2021-09-29T12:40:33.911473803Z"
