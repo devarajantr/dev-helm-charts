@@ -1,9 +1,40 @@
 apiVersion: v1
 entries:
+  free5gc:
+  - apiVersion: v2
+    appVersion: v3.0.5
+    created: "2021-11-03T08:48:09.329046053Z"
+    dependencies:
+    - condition: createNetworks
+      name: networks5g
+      repository: ""
+    - condition: deployUserPlane
+      name: free5gcUserPlane
+      repository: ""
+    - condition: deployControlPlane
+      name: free5gcControlPlane
+      repository: ""
+    - condition: deployN3iwf
+      name: free5gcN3iwf
+      repository: ""
+    description: A Helm chart to deploy Free5gc
+    digest: a982ab25848b62982aba31a98d65a16e86f2ea059b47a90303cb247cfaf67d3c
+    icon: https://camo.githubusercontent.com/915dcf8299b3d2bfe2b2693c5401916cb31e31fb690a73e7da327808000efa37/68747470733a2f2f666f72756d2e667265653567632e6f72672f75706c6f6164732f64656661756c742f6f726967696e616c2f31582f333234363935626663363438316264353536633131303138663238333430383663663565633634352e706e67
+    maintainers:
+    - email: abderaouf.khichane@orange.com
+      name: Abderaouf KHICHANE
+    - email: ilhem.fajjari@orange.com
+      name: Ilhem FAJJARI
+    - email: ayoub.bousselmi@orange.com
+      name: Ayoub BOUSSELMI
+    name: free5gc
+    urls:
+    - https://devarajantr.github.io/dev-helm-charts/free5gc-1.0.tgz
+    version: 0.1.2
   ns-1if-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-09-29T12:40:33.912958947Z"
+    created: "2021-11-03T08:48:09.330318621Z"
     description: A Helm chart for Kubernetes
     digest: 47c757f236b27204ac227fe8cac305695732cc5f62193197e9ae9a6809fe743d
     name: ns-1if-chart
@@ -14,7 +45,7 @@ entries:
   ns-1if-chart2:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-09-29T12:40:33.913729906Z"
+    created: "2021-11-03T08:48:09.33139521Z"
     description: A Helm chart for Kubernetes
     digest: 963c5a64ca63b3f12b0e9df6bc273f7bb073ca3d61fa82a7e878a8c346d17dcd
     name: ns-1if-chart2
@@ -25,7 +56,7 @@ entries:
   ns-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-09-29T12:40:33.915893825Z"
+    created: "2021-11-03T08:48:09.334260342Z"
     description: A Helm chart for Kubernetes
     digest: f48a0be1399bc6aa385afdc5b5ccb4638a1b578b08c199a0ff53409fdd3ebcb0
     name: ns-chart
@@ -38,7 +69,7 @@ entries:
       category: ApplicationServer
     apiVersion: v2
     appVersion: 10.0.101
-    created: "2021-09-29T12:40:33.928674634Z"
+    created: "2021-11-03T08:48:09.338805819Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -66,4 +97,4 @@ entries:
     urls:
     - https://devarajantr.github.io/dev-helm-charts/tomcat-9.2.25.tgz
     version: 9.2.25
-generated: "2021-09-29T12:40:33.911473803Z"
+generated: "2021-11-03T08:48:09.307397861Z"
